@@ -1,14 +1,28 @@
 body {
-    background-image: url("./images/img4.jpg");
+    background-image: url("./images/img1.jpg");
     background-size: cover;
     padding: 20px;
     margin: 0;
     min-height: 100vh;
     background-position: center;
-    overflow-y: hidden;
+    overflow-y: auto;
   }
-  h1, h2, p, ul, li {
+  h1{
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+
+  }
+  
+
+  p{
+    font-size: 30px;
+    font-family: cursive;
+  }
+  h2,  ul, li {
     font-family: sans-serif;
+    font-size: 20px;
+    align-items: center;
   }
   ul.header li {
     display: inline;
@@ -27,12 +41,15 @@ body {
     display: inline-block;
   }
   .content {
-    background-color: #FFF;
+    background-color: rgb(216, 168, 168);
     padding: 20px;
   }
   .content h2 {
     padding: 0;
     margin: 0;
+    justify-content: center;
+    font-size: 30px;
+    font-family: cursive;
   }
   .content li {
     margin-bottom: 10px;

@@ -1,3 +1,33 @@
-.img{
-    background-image: url("./images/img3.jpg");
+.perfume-collection {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.perfume-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+.perfume-item img {
+  max-width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.perfume-description {
+  flex: 1;
+}
+
+.perfume-description h2 {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.perfume-description p {
+  margin: 5px 0;
 }
